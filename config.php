@@ -12,7 +12,7 @@ KrConfig::init([
   'client' => KrConfig::CLIENT_MAJE, # only change the XXX value and ONLY uppercase
   'page_type' => KrConfig::PAGE_TYPE_LANDING, # same thing
 
-  'versions' => ['V1', 'V2'],
+  // 'versions' => ['V1', 'V2'],
 ]);
 
 define('URL_FOR_SPREADSHEET_TXT', 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSw04z2SDch1u1J9C9Wmyr8uTlBmJvYUsHhQpZCi8_obpLJNG5g7nWRpKb6zx-OB9aIv56IZZkX6Sy0/pub?gid=0&single=true&output=csv'); // URL TO 'TXT' CSV GOES HERE
