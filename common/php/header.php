@@ -69,7 +69,7 @@ function rebase($file) {
     '&quot;' . $BASE_URL . '/on/demandware',
 
     '/on/',
-  ], nl2br(file_get_contents($file)));
+  ], file_get_contents($file));
 
   return $pre;
 }
