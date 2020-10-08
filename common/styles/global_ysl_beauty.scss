@@ -1,0 +1,20 @@
+.breadcrumb { display:none; }
+
+$page-is-full-width: false!default;
+@if($page-is-full-width == true) {
+  .primary {
+    flex: 0 1 auto!important;
+  }
+  .primary, .main>.content {
+    width: 100%!important;
+    max-width: none!important;
+    padding: 0!important;
+  }
+}
+
+$header-is-transparent: false!default;
+@if($header-is-transparent == true) {
+}
+
+##{$ID} {
+}

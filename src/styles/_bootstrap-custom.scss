@@ -1,0 +1,34 @@
+##{$ID} {
+  & {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+}
+
+@import "functions";
+@import "variables";
+
+@import "mixins/breakpoints";
+@import "mixins/grid-framework";
+@import "mixins/border-radius";
+@import "mixins/box-shadow";
+@import "mixins/grid";
+@import "mixins/image";
+@import "mixins/hover";
+@import "mixins/text-truncate";
+@import "mixins/text-hide";
+@import "mixins/text-emphasis";
+
+##{$ID} {
+  @import "images";
+  @import "grid";
+  @import "utilities/display";
+  @import "utilities/flex";
+  @import "utilities/text";
+}

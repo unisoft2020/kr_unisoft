@@ -1,0 +1,33 @@
+@function path_to_image($file_name) {
+  @return "#{$PATH_TO_IMAGES}/#{$file_name}?$staticlink$";
+}
+
+.hidden { display: none; }
+
+##{$ID} {
+  h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: normal;
+  }
+
+  p { margin: 0; }
+  a, button, div { outline: 0; }
+
+  .nopadding,
+  .container-nopadding {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  .clear { clear: none; }
+  strong { font-weight: bold; }
+
+  .img-center {
+    display: none;
+    margin-left: auto;
+    margin-left: right;
+  }
+
+  video::-internal-media-controls-overlay-cast-button { display: none; }
+
+}

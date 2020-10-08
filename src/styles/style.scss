@@ -1,0 +1,24 @@
+// 1 - YOU CAN DO SOME CUSTOMISATION HERE
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+$page-is-full-width: false;
+$header-is-transparent: false;
+
+// 2 - INCLUDE SOME SCSS FROM MODULES HERE
+
+// BOOSTRAP IS NOT LONGER LOADED BY DEFAULT ; UNCOMMENT THE LINE BELOW ↓ TO INCLUDE BOOSTRAP v4
+// @import "src/styles/_bootstrap-custom.scss";
+@import "common/styles/global.scss";
+@import "common/styles/global_#{$CLIENT}.scss";
+
+// 3 - HERE YOU CAN OVERRIDE STYLES FROM THE WEBSITE ( MENU, FOOTER, ... )
+
+##{$ID} {
+  clear: both;
+
+  // 4 - AND YOUR CSS CODE GOES HERE
+  // Use path_to_image() helper to reference local images
+
+}

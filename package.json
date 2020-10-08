@@ -1,0 +1,13 @@
+{
+  "name": "kr-dp-base",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-connect-php": "^1.0.3"
+  },
+  "author": "Gabriel Kaam <gabriel@knr.paris> (https://knr.paris)"
+}

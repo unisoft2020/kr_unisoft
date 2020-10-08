@@ -1,0 +1,16 @@
+$page-is-full-width: false!default;
+@if($page-is-full-width == true) {
+  #primary { max-width: none; padding-left: 0; padding-right: 0; }
+}
+
+$menu-height: 100px;
+$header-is-transparent: false!default;
+@if($header-is-transparent == true) {
+  @media (min-width: 1000px) {
+    ##{$ID} { margin-top: -$menu-height; }
+  }
+}
+
+##{$ID} {
+
+}

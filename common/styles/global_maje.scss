@@ -1,0 +1,48 @@
+/* Hide body in footer when using buggy popin */
+#QuickViewDialog > #wrapper.pt_error { display: none!important; }
+
+// FIX ITELIOS HOMEPAGE - BEGIN
+.homePage {
+  margin: 0;
+  max-width: 100% !important;
+
+  .row {
+    display: block;
+    width: auto!important;
+  }
+
+  h1 {
+    padding: 0;
+    letter-spacing: normal;
+  }
+}
+// FIX ITELIOS HOMEPAGE - END
+
+.pt_customer-service #main {
+  max-width: none;
+  padding: 0;
+}
+
+$page-is-full-width: false!default;
+@if($page-is-full-width == true) {
+}
+
+$menu-height: 99px;
+$header-is-transparent: false!default;
+@if($header-is-transparent == true) {
+  @media (min-width: 576px) {
+    .topHeader:after, .topHeader, #header, header, #header .header-search form {
+      background-color: transparent;
+    }
+    .expan-bg-sub-menu { top: -$menu-height; }
+    ##{$ID} { margin-top: -$menu-height; }
+  }
+}
+
+
+##{$ID} {
+  a:hover, a:focus { text-decoration: none; }
+
+  font-size: 10px;
+  letter-spacing: normal;
+}
