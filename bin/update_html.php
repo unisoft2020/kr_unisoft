@@ -92,6 +92,16 @@ $sources = [
       'post_marker' => '</div><!-- /main -->',
       'prepend_to_post' => '</div>',
     ],
+
+    KrConfig::PAGE_TYPE_GRID => [
+      'url' => 'https://www.ikks.com/fr/femme/sacs/tous-les-sacs/',
+
+      'pre_marker' => '</body>',
+      'append_to_pre' => '',
+
+      'post_marker' => '</html>',
+      'prepend_to_post' => '',
+    ],
   ],
 ];
 

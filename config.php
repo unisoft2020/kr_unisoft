@@ -31,24 +31,24 @@ define('URL_FOR_SPREADSHEET_URL', 'https://docs.google.com/spreadsheets/d/e/2PAC
 $STYLES[] = 'src/styles/fonts.css.php';
 $STYLES[] = 'src/styles/style.scss';
 
-// $languages = [
-  // 'FR',
-  // 'UK',
-  // 'DE',
-  // 'ES',
-  // 'IT',
-  // 'EU',
-  // 'US',
-  // 'IE',
-  // 'NL',
-  // 'BE-FR',
-  // 'BE-EN',
-  // 'BE-FL',
-  // 'CH-FR',
-  // 'CH-DE',
-  // 'CH-EN',
-  // 'CH-IT',
-// ];
+ $languages = [
+   'FR',
+   'UK',
+   'DE',
+   'ES',
+   'IT',
+   'EU',
+   'US',
+   'IE',
+   'NL',
+   'BE-FR',
+   'BE-EN',
+   'BE-FL',
+   'CH-FR',
+   'CH-DE',
+   'CH-EN',
+   'CH-IT',
+ ];
 
 load_words('TXT', URL_FOR_SPREADSHEET_TXT, BASE_DIRECTORY . '/data/_words.php');
 load_words('URL', URL_FOR_SPREADSHEET_URL, BASE_DIRECTORY . '/data/_urls.php');
