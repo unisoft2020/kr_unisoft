@@ -7,6 +7,7 @@ require 'src/php/templates.php';
 <div class="kr_content_wrapper" id="<?= ID() ?>" data-version="<?= VERSION() ?>">
   <div class="container">
     <h1><?= word('TXT_TITLE') ?></h1>
+    <h2><?= word('TXT_TEXT_1') ?></h2>
   </div>
 </div>
 
